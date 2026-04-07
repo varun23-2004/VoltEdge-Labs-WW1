@@ -51,8 +51,11 @@ Ensure your environment has the following installed:
 
 **Step 4: Automated Pipeline Execution** The tool will now run autonomously. You will see the following sequence in your terminal. 
 					1) Agent 1 generates the strict, parameter driven Verilog2001 code.
+					
 					2) Agent 2 generates the coressponding _tb.v testench.
+					
 					3) The system runs iverilog to check for syntax and compile the design.
+					
 					4) The system runs vvp to simulate the logic and dump into the waveform.
 
 ## Locating and Verifying the Outputs 
