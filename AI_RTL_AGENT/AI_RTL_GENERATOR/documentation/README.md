@@ -50,6 +50,7 @@ Ensure your environment has the following installed:
 **Step 3: Define the parameters** The tool will then dynamically ask for the parameters according to your selected module. 
 
 **Step 4: Automated Pipeline Execution** The tool will now run autonomously. You will see the following sequence in your terminal. 
+					
 					1) Agent 1 generates the strict, parameter driven Verilog2001 code.
 					
 					2) Agent 2 generates the coressponding _tb.v testench.
